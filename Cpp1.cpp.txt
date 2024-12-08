@@ -1,0 +1,63 @@
+   #include <iostream>
+
+using namespace std;
+
+class Calculator
+{
+public:
+
+    double floor(int a)
+    {
+        return a;
+    }
+
+  
+    int add(int x ,int y)
+    {
+        return x+y;
+    }
+
+    
+    double max1(double num1, double num2)
+    {
+        if (num1 > num 2)
+    {
+            return num1;
+    }
+        else
+    {
+            return num2;
+     }
+
+    
+    bool find1(string &str, char ch)
+    {
+        for (int i =0; i < str.length();i++)
+    {
+           if (str[i] == ch)
+    {
+               return true;
+    }
+     }
+               return false;
+      }
+
+    int max2(int arr[], int c)
+    {
+        int maxValue = arr[0];
+        for (int i =1; i<c; i++)
+        {
+          if( arr[i] > maxValue )
+         {
+             maxValue =arr[0];
+        }
+         return maxValue;
+        
+    }
+};
+
+int main()
+{
+    Calculator calc;
+
+  
